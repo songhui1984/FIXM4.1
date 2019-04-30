@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jaxb:bindings version="2.1"
+               xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <jaxb:bindings schemaLocation="http://www.w3.org/1999/xlink.xsd" node="/xs:schema">
+
+        <jaxb:bindings node="//xs:attributeGroup[@name='locatorAttrs']">
+            <jaxb:bindings node=".//xs:attribute[@ref='xlink:title']">
+                <jaxb:property name="title1"/>
+            </jaxb:bindings>
+        </jaxb:bindings>
+
+        <jaxb:bindings node="//xs:attributeGroup[@name='arcAttrs']">           
+            <jaxb:bindings node=".//xs:attribute[@ref='xlink:title']">
+                <jaxb:property name="title2"/>
+            </jaxb:bindings>            
+        </jaxb:bindings>              
+    </jaxb:bindings>          
+
+</jaxb:bindings>
