@@ -17,7 +17,7 @@ The Extensions are developed by FIXM users in support of specific regional/local
   - SESAR EFPL Extension
   - Eucontrol A-CDM Extension
 
-This FIXM Implementation is a collection of Java classes that is defined in "FIXM Core schema" and "US NAS Extension schema". You can include fixm-4.1.jar library to your application for marshalling/unmarshalling.
+This FIXM Implementation is Java classes that is implemented from "FIXM Core schema" and "US NAS Extension schema". You can include fixm-4.1.jar library to your application for marshalling/unmarshalling.
 
 ### How to build
 
