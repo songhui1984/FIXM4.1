@@ -1,4 +1,4 @@
-# FIXM 4.1 Implementation
+# FIXM 4.1 Implementation in Java Language
 ### What is FIXM(Flight Information eXchange Model)?
 The Flight Information Exchange Model (FIXM) is an exchange model capturing Flight and Flow information that is globally standardised. The requirement for FIXM was identified by the International Civil Aviation Organisation (ICAO) Air Traffic Management Requirements and Performance Panel (ATMRPP) and endorsed at the 12th Air Navigation Conference as part of the Aviation System Block Upgrades (ASBU) and as described in Flight and Flow Information for a Collaborative Environment (FF-ICE).
 See https://fixm.aero/
@@ -30,5 +30,5 @@ $ mvn package
 
 ### License
 
-**Free Software**
+**This is Free Software with no limitation**
 
